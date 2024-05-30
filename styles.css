@@ -1,3 +1,10 @@
 body {
-  background-image: linear-gradient(crimson, gold);
+  background-image: linear-gradient(rgb(140, 2, 29), gold);
+}
+h1 {
+  color: orange;
+}
+p {
+  font-family: Tahoma;
+  font-size: large;
 }
