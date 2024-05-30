@@ -1,3 +1,8 @@
 body {
-  background-image: background-gradient(maroon, gold);
+  background-color: maroon;
+}
+
+.myheaders {
+  font-family: Tangerine;
+  color: goldenrod;
 }
