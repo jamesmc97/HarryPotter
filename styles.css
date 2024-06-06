@@ -1,8 +1,57 @@
-body {
+html {
+  background-image: linear-gradient(maroon, rgb(8, 61, 8));
+  transition: background-color 2s ease-out;
+  transition: background-color 2s ease-out;
+  transition: background-color 2s ease-out;
+  transition: background-color 2s ease-out;
+}
+
+html {
+  background-image: url(hp_logo.jpeg);
+  background-repeat: no-repeat;
+  background-position: bottom-right;
+  background-size: 10%;
+}
+
+html:hover {
   background-color: maroon;
+  cursor: pointer;
 }
 
 .myheaders {
+  transition:
+    width 2s,
+    height 2s,
+    transform 2s;
   font-family: Tangerine;
+  font-size: 3em;
   color: goldenrod;
+  padding-left: 20%;
+  border-style: outset;
+}
+
+.houses_img {
+  margin-top: 0%;
+  padding-left: 30%;
+}
+
+h2 {
+  font-family: fantasy;
+  color: goldenrod;
+}
+
+.lists {
+  font-family: cursive;
+  color: rgb(240, 216, 154);
+}
+
+.lists2 {
+  font-family: cursive;
+  color: rgb(240, 216, 154);
+  text-decoration: underline;
+}
+
+a:visited {
+  text-decoration: none;
+  color: rgb(138, 110, 41);
 }
